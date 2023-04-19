@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="icons/favicon.ico" type="imagem/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slide.css" />
+    <link rel="stylesheet" href="julia.css" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    
+    <nav>
+      <input id="nav-toggle" type="checkbox" />
+      <div class="logo">
+        <a href="index.html">
+          <img id="logo" src="icons/logo.webp" />
+        </a>
+      </div>
+      <ul class="links">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="navigation/julia/julia.html">JULIA</a></li>
+        <li><a href="#isabela">ISABELA</a></li>
+        <li><a href="#ravel">RAVEL </a></li>
+      </ul>
+
+      <label for="nav-toggle" class="icon-burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </label>
+    </nav>
+    
+    <div class="container">
+      
+      <a name="nav-home">
+        <div class="home">
+          <div class="topmsg">Conheça nossos candidatos</div>
+        </div>
+      </a>
+      
+
+      <div class="wrapper">
+        <div class="slide-wrapper" data-slide="wrapper">
+          <button
+            class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+            data-slide="nav-previous-button"
+          ></button>
+          <button
+            class="slide-nav-button slide-nav-next fas fa-chevron-right"
+            data-slide="nav-next-button"
+          ></button>
+          <div class="slide-list" data-slide="list">
+            <div class="slide-item" data-slide="item" data-index="0">
+              <div class="slide-content">
+                <a href="navigation/julia/julia.html">
+                  <img
+                  class="slide-image"
+                  src="icons/resumojl.webp"
+                  alt="Julia Lopes"
+                  />
+                </a>
+              </div>
+              
+              <div class="slide-content-mobile">
+                <a href="navigation/julia/julia.html">
+                  <img
+                  class="slide-image"
+                  src="icons/resumojl-mobile.webp"
+                  alt="Julia Lopes mobile"
+                />
+                </a>
+              </div>
+            </div>
+
+            <div class="slide-item" data-slide="item" data-index="1">
+              <div class="slide-content">
+                <img
+                  class="slide-image"
+                  src="icons/resumois.webp"
+                  alt="Isabela Schadt"
+                />
+              </div>
+
+              <div class="slide-content-mobile">
+                <img
+                  class="slide-image"
+                  src="icons/resumois-mobile.webp"
+                  alt="Isabela Schadt mobile"
+                />
+              </div>
+            </div>
+
+            <div class="slide-item" data-slide="item" data-index="2">
+              <div class="slide-content">
+                <img
+                  class="slide-image"
+                  src="icons/resumora.webp"
+                  alt="Ravel Almeida"
+                />
+              </div>
+
+              <div class="slide-content-mobile">
+                <img
+                  class="slide-image"
+                  src="icons/resumora-mobile.webp"
+                  alt="Ravel Almeida mobile"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="slide-controls" data-slide="controls-wrapper"></div>
+        </div>
+      </div>
+
+      
+
+      <a name="cut-footer">
+        <div class="cut-fooer-bottom">
+          <div class="cut-one">
+            enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S
+            enCV'S enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's
+          </div>
+          <div class="cut-one-mobile">
+            enCV'S enCV'S enCV'S enCV'S enCV'S enCV'S  enCV'S enCV'S  enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's enCV's
+          </div>
+  
+          
+        </div>
+      </a>
+      
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      initSlider({
+        autoPlay: true,
+        startAtIndex: 0,
+        timeInterval: 5000,
+      });
+    </script>
+  </body>
+  <footer>
+    <p>&copy; 04/2023 Projeto de TCC Escola da nuvem - AWS re/start. </p>
+    <p class="footer-alunos"> Alunos: Julia Lopes, Isabela Schadt e Ravel Almeida.</p>
+    <p>~ enCv's é uma empresa fictícia projetada apenas para fins acadêmicos ~</p> 
+    <p>Site desenvolvido por <a class="footeris" href="https://isabelaschadt.github.io/my-links/" target="_blank"> Isabela Schadt </a></p>
+    <p>Agradecemos imensamente ao nosso mentor Allan Macedo pela orientação, apoio e incentivo durante toda nossa formação e também no desenvolvimento deste projeto.</p>
+ </footer>
+</html>

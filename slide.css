@@ -1,0 +1,162 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  height: 100%;
+}
+
+.slide-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slide-list {
+  display: flex;
+}
+
+.slide-item {
+  cursor: grab;
+  flex-shrink: 0;
+  padding: 0 10px;
+  width: 90vw;
+}
+.slide-item .slide-content-mobile {
+  cursor: grab;
+  flex-shrink: 0px;
+  padding: 0 10px;
+  width: 90vw;
+}
+
+.slide-content {
+  position: relative;
+}
+
+.slide-content-mobile{
+  display: none;
+}
+
+.slide-image {
+  border-radius: 10px;
+  width: 100%;
+}
+
+
+
+.slide-nav-button {
+  background: #cecbc33f;
+  border-radius: 20%;
+  color: #ff9c00;
+  cursor: pointer;
+  font-size: 40px;
+  position: absolute;
+  z-index: 1;
+  width: 50px;
+  height: 60px;
+ 
+}
+
+.slide-nav-previous {
+  left: 20px;
+}
+
+.slide-nav-next {
+  right: 20px;
+}
+
+.slide-controls {
+  margin: 30px auto 0;
+}
+
+.slide-control-button {
+  color: #ff9d0057;
+  border-radius: 50%;
+  cursor: pointer;
+  background: transparent;
+  font-size: 20px;
+  margin: 0 7px;
+  
+}
+
+.slide-control-button.active {
+  font-size: 25px;
+  color: #ff9c00;
+  transition: .5s;
+ 
+}
+
+@media screen and (max-width: 768px) {
+  .slide-description {
+      padding: 10px;
+  }
+  
+  .slide-description h3 {
+      font-size: 24px;
+      top: 0;
+  }
+
+  .slide-description p {
+      display: none;
+  }
+
+  .slide-nav-button {
+      margin-top: -20px;
+      font-size: 28px;
+  }
+  
+  .slide-nav-previous {
+      left: 10px;
+  }
+  
+  .slide-nav-next {
+      right: 10px;
+  }
+
+  .slide-controls {
+      margin: 15px auto 0;
+  }
+
+  .slide-control-button {
+    color: #ff9d0057;
+    border-radius: 10%;
+    cursor: pointer;
+    background: transparent;
+    font-size: 13px;
+    margin: 0 5px;
+    
+  }
+  .slide-nav-button{
+    display: none ;
+  }
+  
+  .slide-control-button.active {
+    font-size: 16px;
+    color: #ff9c00;
+    transition: .5s;
+   
+  }
+  .slide-content-mobile {
+    position: relative;
+    display: flex;
+  }
+  
+  .slide-content{
+    display: none;
+  }
+ 
+}
