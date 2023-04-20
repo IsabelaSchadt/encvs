@@ -1024,6 +1024,13 @@ body {
   margin-top: 70px;
   margin-left: 40px;
   }
+  .aws{
+    position:absolute;
+    width: auto;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 118px;
+  }
   .csharp{
     position: absolute;
     width: auto;
@@ -1040,27 +1047,21 @@ body {
     margin-left: 40px;
   }
   .css{
-  position: relative;
-  width: auto;
-  height: 35px;
-  margin-top: 160px;
-  margin-left: 40px;
+    position:inherit;
+    width: auto;
+    height: 35px;
+    margin-top: 80px;
+    margin-left: 40px;
   }
   
   .linux{
     position: relative;
     width: auto;
-    height: 60px;
+    height: 57px;
     margin-top: 40px;
     margin-left: 30px;
   }
-  .aws{
-    position:absolute;
-    width: auto;
-    height: 53px;
-    margin-top: -134px;
-    margin-left: 180px;
-  }
+  
   .soft-skills{
     position: relative;
     height: 25px;
