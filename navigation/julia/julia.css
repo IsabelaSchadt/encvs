@@ -654,6 +654,10 @@ body {
   margin-top: -264px;
   font-family: 'Georgia', sans-serif;
 }
+
+.end{
+  display: none;
+}
 @media screen and (max-width: 768px){
   .cut-one{
     display: none;
@@ -994,7 +998,7 @@ body {
     font-family: 'Georgia', sans-serif;
   }
 
-.languages{
+  .languages{
     position: relative;
     height: 25px;
     width: 180px;
@@ -1004,9 +1008,9 @@ body {
     letter-spacing: 5px;
     margin-left: 0px;
     margin-top: 20px;
-}
+  }
 
-.languages-desc{
+  .languages-desc{
     position: relative;
     padding-left: 0px;
     font-size: 15px;
@@ -1014,11 +1018,11 @@ body {
     line-height: 16px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: 10px;
     font-family: 'Georgia', sans-serif;
-}
+  }
 
-.languages-desc2{
+  .languages-desc2{
   position: relative;
   padding-left: 0px;
   font-size: 15px;
@@ -1026,11 +1030,11 @@ body {
   line-height: 16px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 5px;
+  margin-top: 10px;
   font-family: 'Georgia', sans-serif;
-}
+  }
 
-.hard-skills{
+  .hard-skills{
   position: relative;
   height: 25px;
   width: 180px;
@@ -1041,41 +1045,41 @@ body {
   margin-left: 0px;
   margin-top: 40px;
   margin-bottom: -40px;
-}
+  }
 
-.git{
+  .git{
   position:relative;
   width: auto;
   height: 35px;
   margin-top: 0px;
   margin-left: 40px;
-}
+  }
 
-.github{
+  .github{
   position:relative;
   width: auto;
   height: 35px;
   margin-top: 70px;
   margin-left: 40px;
-}
+  }
 
-.javascript{
+  .javascript{
   position:absolute;
   width: auto;
   height: 35px;
   margin-top: 70px;
   margin-left: 40px;
-}
+  }
 
-.office{
+  .office{
   position:absolute;
   width: auto;
   height: 35px;
   margin-top: 70px;
   margin-left: 125px;
-}
+  }
 
-.soft-skills{
+  .soft-skills{
     position: relative;
     height: 25px;
     width: 180px;
@@ -1085,13 +1089,59 @@ body {
     letter-spacing: 5px;
     margin-left: 0px;
     margin-top: 20px;
-}
-
-
-
-
-	footer{
-		font-size: 10px;
-		
-	}
   }
+
+  .soft-skills-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Georgia', sans-serif;
+  }
+  .soft-skills-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Georgia', sans-serif;
+  }
+  .soft-skills-desc3{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Georgia', sans-serif;
+  }
+  .soft-skills-desc4{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .end{
+    display: flex;
+    height: 50px;
+  }
+
+  footer{
+  font-size: 10px;
+	}
+}
