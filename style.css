@@ -206,7 +206,7 @@ footer {
 	.topmsg {
 		font-size: 20px;
 		padding-left: 10px;
-		padding-top: 100px;
+		padding-top: 135px;
 	}
   .cut-one-mobile{
     z-index: 2;
@@ -214,7 +214,7 @@ footer {
     color: white;
     background-color: #ff9c00;
     width: 100%;
-    margin-top: 80px;
+    margin-top: 175px;
     height: 18px;
     font-family: "Bebas Neue", sans-serif;
     letter-spacing: 5px;

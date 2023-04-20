@@ -101,13 +101,10 @@ html, body {
 }
 
 @media screen and (max-width: 768px) {
-  .slide-description {
-      padding: 10px;
-  }
   
-  .slide-description h3 {
-      font-size: 24px;
-      top: 0;
+  .share{
+    width: 0;
+    height:100px;
   }
 
   .slide-description p {

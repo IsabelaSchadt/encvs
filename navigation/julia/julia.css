@@ -28,7 +28,7 @@ body {
 .risk{
   background-color: #202b3c;
   width: 500px;
-  height: 1600px;
+  height: 2500px;
   z-index: 0;
   margin-top: -100px;
 }
@@ -58,6 +58,11 @@ body {
   
 }
 
+.save-icon-one:hover{
+  background-color: rgba(255, 255, 255, 0.077);
+ border-radius: 15%;
+}
+
 .save-icon-link{
   
   top: 0;
@@ -77,6 +82,11 @@ body {
   
 }
 
+.mail-icon-one:hover{
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 15%;
+ }
+
 .mail-icon-link{
   
   top: 0;
@@ -94,6 +104,11 @@ body {
   margin-left: 40px;
   
 }
+
+.whats-icon-one:hover{
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 15%;
+ }
 
 .whats-icon-link{
   
@@ -113,6 +128,11 @@ body {
   margin-left: 40px;
   
 }
+
+.linkedin-icon-one:hover{
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 15%;
+ }
 
 .linkedin-icon-link{
   
@@ -134,13 +154,18 @@ body {
   
 }
 
+.github-icon-one:hover{
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 15%;
+ }
+
 .github-icon-link{
   
   top: 0;
   left: 0;
   display: block;
   width: auto;
-  height: 50px;
+  height: 100px;
 }
 
 .about{
@@ -154,7 +179,7 @@ body {
   font-size: 40px;
   letter-spacing: 8px;
   margin-left: 430px;
-  margin-top: -1230px;
+  margin-top: -2140px;
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -165,7 +190,7 @@ body {
   padding-left: 300px;
   font-size: 150px;
   right: 45px;
-  margin-top: -1450px;
+  margin-top: -2360px;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -180,7 +205,7 @@ body {
   line-height: 26px;
   margin-left: 340px;
   margin-right: 20px;
-  margin-top: -1165px;
+  margin-top: -2080px;
   font-family: 'Georgia', sans-serif;
 }
 
@@ -195,7 +220,7 @@ body {
   font-size: 40px;
   letter-spacing: 8px;
   margin-left: 450px;
-  margin-top: -1020px;
+  margin-top: -1950px;
   font-family: 'Bebas Neue', sans-serif;
 }
 
@@ -210,7 +235,142 @@ body {
   line-height: 26px;
   margin-left: 340px;
   margin-right: 20px;
-  margin-top: -955px;
+  margin-top: -1890px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification{
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  background-color: #202b3c;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 80px;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 430px;
+  margin-top: -1608px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.certification-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1540px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1505px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification2-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1470px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification2-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1435px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification3-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1400px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification3-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1365px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification4-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1330px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.certification4-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1295px;
   font-family: 'Georgia', sans-serif;
 }
 
@@ -225,9 +385,219 @@ body {
   font-size: 40px;
   letter-spacing: 8px;
   margin-left: 430px;
-  margin-top: -660px;
+  margin-top: -1248px;
   font-family: 'Bebas Neue', sans-serif;
 }
+
+.experience-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1188px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.experience-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1153px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.experience2-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1118px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.experience2-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1083px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.experience3-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1048px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.experience3-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #202b3c;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -1013px;
+  font-family: 'Georgia', sans-serif;
+}
+.languages{
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  background-color: #202b3c;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 80px;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 430px;
+  margin-top: -965px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+.languages-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -905px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.languages-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -870px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.hard-skills{
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  background-color: #202b3c;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 80px;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 430px;
+  margin-top: -825px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.git-github{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -765px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.git{
+  position: absolute;
+  width: auto;
+  height: 90px;
+  margin-top: -650px;
+  margin-left: 550px;
+}
+
+.github{
+  position: absolute;
+  width: auto;
+  height: 90px;
+  margin-top: -650px;
+  margin-left: 800px;
+}
+
+.javascript{
+  position: absolute;
+  width: auto;
+  height: 90px;
+  margin-top: -650px;
+  margin-left: 1050px;
+}
+
+.office{
+  position: absolute;
+  width: auto;
+  height: 90px;
+  margin-top: -650px;
+  margin-left: 1300px;
+}
+.soft-skills{
+  position: absolute;
+  height: 48px;
+  width: 400px;
+  background-color: #202b3c;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 80px;
+  font-size: 40px;
+  letter-spacing: 8px;
+  margin-left: 430px;
+  margin-top: -440px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
 @media screen and (max-width: 768px){
   .cut-one{
     display: none;
@@ -277,7 +647,7 @@ body {
     
     height: 40px;
     margin-top: 98px;
-    margin-left: 160px;
+    margin-left: 145px;
     
   }
   
@@ -290,21 +660,21 @@ body {
   
   .whats-icon-one{
     height: 30px;
-    margin-top: 265px;
+    margin-top: 280px;
     margin-left: -195px;
     
   }
   .linkedin-icon-one{
     height: 37px;
     margin-top: 250px;
-    margin-left: -30px;
+    margin-left: -10px;
     
   }
  
   .github-icon-one{
     height: 35px;
-    margin-top: 185px;
-    margin-left: -125px;
+    margin-top: 198px;
+    margin-left: -145px;
   }
   
   .github-icon-link{
@@ -321,7 +691,7 @@ body {
     position:relative;
     display:inline-flex;
     color: #ff9c00;
-    margin-left:-190px;
+    margin-left:-245px;
     font-size: 60px;
     margin-top:0;
     font-family: 'Dancing Script', cursive, sans-serif;
@@ -330,7 +700,7 @@ body {
   .about{
     position: relative;
     height: 25px;
-    width: 150px;
+    width: 180px;
     padding-left: 17px;
     padding-top: 1.7px;
     font-size:19px;
@@ -347,16 +717,16 @@ body {
     line-height: 16px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 3px;
+    margin-top: 5px;
     font-family: 'Georgia', sans-serif;
   }
 
   .goal{
     position: relative;
     height: 25px;
-    width: 150px;
+    width: 180px;
     right: 0;
-    padding-left: 26px;
+    padding-left: 58px;
     padding-top: 1.7px;
     font-size:19px;
     letter-spacing: 5px;
@@ -372,14 +742,14 @@ body {
     line-height: 16px;
     margin-left: 10px;
     margin-right: 10px;
-    margin-top: 45px;
+    margin-top: 47px;
     font-family: 'Georgia', sans-serif;
   }
 
-  .experience{
+  .certification{
     position: relative;
     height: 25px;
-    width: 150px;
+    width: 180px;
     padding-left: 17px;
     padding-top: 1.7px;
     font-size:19px;
@@ -387,6 +757,309 @@ body {
     margin-left: 0px;
     margin-top: 20px;
   }
+
+  .certification-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 6px;
+    font-family: 'Georgia', sans-serif;
+   
+  }
+  
+  .certification-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification2-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification2-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification3-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification3-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification4-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .certification4-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+  
+  .experience{
+    position: relative;
+    height: 25px;
+    width: 180px;
+    right: 0;
+    padding-left: 36px;
+    padding-top: 1.7px;
+    font-size:19px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    float: right;
+  }
+
+  .experience-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 50px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .experience-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .experience2-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .experience2-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .experience3-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .experience3-desc2{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+  }
+
+  .hard-skills{
+    position: relative;
+    height: 25px;
+    width: 180px;
+    padding-left: 17px;
+    padding-top: 1.7px;
+    font-size:19px;
+    letter-spacing: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+.languages{
+    position: relative;
+    height: 25px;
+    width: 180px;
+    padding-left: 17px;
+    padding-top: 1.7px;
+    font-size:19px;
+    letter-spacing: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.languages-desc{
+    position: relative;
+    padding-left: 0px;
+    font-size: 15px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-family: 'Georgia', sans-serif;
+}
+
+.languages-desc2{
+  position: relative;
+  padding-left: 0px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 5px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.hard-skills{
+  position: relative;
+    height: 25px;
+    width: 180px;
+    right: 0;
+    padding-left: 36px;
+    padding-top: 1.7px;
+    font-size:19px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    float: right;
+}
+
+.git-github{
+  position: relative;
+  padding-left: 0px;
+  font-size: 15px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 50px;
+  font-family: 'Georgia', sans-serif;
+}
+
+.git{
+  position:relative;
+  width: auto;
+  height: 35px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.github{
+  position:relative;
+  width: auto;
+  height: 35px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.javascript{
+  position:absolute;
+  width: auto;
+  height: 35px;
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.office{
+  position:absolute;
+  width: auto;
+  height: 35px;
+  margin-top: 70px;
+  margin-left: 125px;
+}
+
+.soft-skills{
+    position: relative;
+    height: 25px;
+    width: 180px;
+    padding-left: 17px;
+    padding-top: 1.7px;
+    font-size:19px;
+    letter-spacing: 5px;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+
+
+
 	footer{
 		font-size: 10px;
 		
