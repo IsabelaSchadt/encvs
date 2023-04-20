@@ -598,6 +598,62 @@ body {
   font-family: 'Bebas Neue', sans-serif;
 }
 
+.soft-skills-desc{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -378px;
+  font-family: 'Georgia', sans-serif;
+}
+.soft-skills-desc2{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -340px;
+  font-family: 'Georgia', sans-serif;
+}
+.soft-skills-desc3{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -302px;
+  font-family: 'Georgia', sans-serif;
+}
+.soft-skills-desc4{
+  position: absolute;
+  text-align:justify;
+  display: flex;
+  color: #ff9c00;
+  padding-left: 180px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 26px;
+  margin-left: 340px;
+  margin-right: 20px;
+  margin-top: -264px;
+  font-family: 'Georgia', sans-serif;
+}
 @media screen and (max-width: 768px){
   .cut-one{
     display: none;
@@ -984,6 +1040,7 @@ body {
   letter-spacing: 5px;
   margin-left: 0px;
   margin-top: 40px;
+  margin-bottom: -40px;
 }
 
 .git{
