@@ -555,7 +555,7 @@ body {
 .git{
   position: absolute;
   width: auto;
-  height: 90px;
+  height: 60px;
   margin-top: -650px;
   margin-left: 550px;
 }
@@ -563,7 +563,7 @@ body {
 .github{
   position: absolute;
   width: auto;
-  height: 90px;
+  height: 60px;
   margin-top: -650px;
   margin-left: 800px;
 }
@@ -571,7 +571,7 @@ body {
 .javascript{
   position: absolute;
   width: auto;
-  height: 90px;
+  height: 60px;
   margin-top: -650px;
   margin-left: 1050px;
 }
@@ -579,7 +579,7 @@ body {
 .office{
   position: absolute;
   width: auto;
-  height: 90px;
+  height: 60px;
   margin-top: -650px;
   margin-left: 1300px;
 }
